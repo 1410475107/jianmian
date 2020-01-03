@@ -12,7 +12,7 @@ class CookiesController extends Controller {
             maxAge:720*3600000
         });
         // 签名
-        ctx.cookies.set('age', '200', {
+        ctx.cookies.set('age', '2000', {
             encrypt: true
         });
         ctx.body = 'Cookie设置';
